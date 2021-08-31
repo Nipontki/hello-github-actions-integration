@@ -34,7 +34,7 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-    -shell: bash
+    - shell: bash
       env: 
         PASSWORD: ${{secrets.PASSWORD_TEST}}
       run: |
